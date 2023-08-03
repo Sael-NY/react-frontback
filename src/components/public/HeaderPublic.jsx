@@ -6,9 +6,9 @@ const HeaderPublic = () => {
     return (
         <div>
             <ul>
-                <li><Link to="/public">Accueil</Link></li>
-                <li><Link to="/public/coworkings">Coworkings</Link></li>
-                <li><Link to="/public/login">Login</Link></li>
+                <li><Link to="/">Accueil</Link></li>
+                <li><Link to="/coworkings">Coworkings</Link></li>
+                <li><Link to="/login">Login</Link></li>
             </ul>
         </div>
     )
